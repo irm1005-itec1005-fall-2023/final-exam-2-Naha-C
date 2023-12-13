@@ -144,24 +144,16 @@ footer {
 }
 
 .aboutme {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.aboutme {
   border-radius: 10px;
   display: flex;
-  max-width: 666px;
+  max-width: 1400px;
   margin: auto;
 }
+
 
 .img_container {
   width: 150%;
@@ -170,7 +162,7 @@ footer {
 .img_container img {
   height: 150%;
   width: 150%;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .details_container {
@@ -180,14 +172,15 @@ footer {
 
 .details_container .name {
   margin-bottom: 1rem;
+  font-size: 30px;
 }
 
 .details_container .description {
-  font-size: 13.5px;
+  font-size: 18px;
 }
 
 .details_container .btn {
-  width: 100%;
+  width: 25%;
   border: 0;
   outline: 0;
   background-color: rgb(242, 118, 139);
@@ -195,7 +188,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 10px;
   cursor: pointer;
 }
