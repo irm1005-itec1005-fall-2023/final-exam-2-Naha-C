@@ -179,15 +179,11 @@ footer {
 }
 
 .details_container .name {
-  color: hsl(212, 21%, 14%);
-  padding-right: 2rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .details_container .description {
-  font-size: 14px;
-  line-height: 22px;
-  margin-bottom: 1.75rem;
+  font-size: 13.5px;
 }
 
 .details_container .btn {
@@ -205,5 +201,9 @@ footer {
 }
 
 .details_container .btn:hover {
-  background-color: hsl(212, 21%, 14%);
-}
+    color:white;
+    background-color:black;
+    border-radius: 1rem;
+    transition: 0.3s all ease-in;
+  }
+  
