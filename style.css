@@ -160,24 +160,50 @@ footer {
   border-radius: 10px;
   display: flex;
   max-width: 666px;
-  background-color: white;
-  margin: 0 1rem;
+  margin: auto;
 }
 
 .img_container {
-  width: 50%;
+  width: 150%;
 }
 
 .img_container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  height: 150%;
+  width: 150%;
+  border-radius: 10px;
 }
 
 .details_container {
-  width: 50%;
+  width: 150%;
   padding: 2rem;
 }
 
+.details_container .name {
+  color: hsl(212, 21%, 14%);
+  padding-right: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.details_container .description {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 1.75rem;
+}
+
+.details_container .btn {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: rgb(242, 118, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.details_container .btn:hover {
+  background-color: hsl(212, 21%, 14%);
+}
