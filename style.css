@@ -262,5 +262,16 @@ h2 {
   font-size: medium;
 }
 
+ul li {
+  list-style-type: none;
+}
+
+ul li:hover {
+  color:white;
+  background-color:black;
+  border-radius: 1rem;
+  transition: 0.3s all ease-in;
+}
+
 
 
