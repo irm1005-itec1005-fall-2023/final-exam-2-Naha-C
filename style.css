@@ -193,7 +193,7 @@ p2 {
   
 .contactme { 
   border-radius: 10px;
-  margin: 300px;
+  margin: 450px;
   padding: 20px 30px 20px 30px;
   background-color: #cdb4db;
 } 
@@ -233,28 +233,28 @@ footer {
 .box1 {
   grid-column: 2/3;
   grid-row: 1/2;
-  height: 100px;
+  height: 150px;
   width: 250px;
 }
 
 .box2 {
   grid-column: 3/4;
   grid-row: 1/2;
-  height: 100px;
+  height: 150px;
   width: 250px;
 }
 
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  height: 100px;
+  height: 150px;
   width: 250px;
 }
 
 .box4 {
   grid-column: 3/4;
   grid-row: 2/3;
-  height: 100px;
+  height: 150px;
   width: 250px;
 }
 
